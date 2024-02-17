@@ -1,0 +1,42 @@
+<DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  </head>
+  <body>
+    <div class="container">
+  <div class="jumbotron">
+        <h2>Are these two puzzles somewhat similar?</h2>
+  </div>
+  <div class="parent">
+      <img src="/examples/00.png" class="image1" id="c1" >
+      <h2> Versus </h2>
+      <img src="/examples/01.png" class="image2" id="c2">
+  </div>
+
+<h2> Between 0 and 10, how similar are they?  </h2>
+<div class="slidecontainer">
+  <input type="range" min="0" max="10" value="5" class="slider" id="myRange">
+</div>
+<h2 id="demo">5</h2>
+<div class="buttons">
+  <input id="clickMe" class="action_btn" type="button" value="Submit" onclick="submit();" />
+</div>
+
+
+
+<script src="script.js"> </script>
+
+  <footer class="footer">
+    <p>arcmash</p>
+  </footer>
+
+</div>
+  </body>
+</html>
